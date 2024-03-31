@@ -11847,6 +11847,8 @@ textarea.form-control-lg {
 /* Abstracts */
 /* Fuente alternativa */
 /* Font Sizes */
+/* Fuente alternativa */
+/* Font Sizes */
 /* Vendors  */
 /* Base */
 * {
@@ -11899,6 +11901,17 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+/* Fuente alternativa */
+/* Font Sizes */
+.projects {
+  width: 100%;
+}
+.projects__title {
+  font-family: "Lobster", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
 /* Components  */
 .hero__button {
   border: none;
@@ -11939,6 +11952,16 @@ textarea.form-control-lg {
 
 .fa-vuejs {
   color: rgb(66, 192, 66);
+}
+
+.projects__card {
+  padding: 5;
+  border: none;
+  text-align: start;
+  width: 16rem;
+}
+.projects__card-body-text {
+  justify-content: start;
 }
 
 /* Pages */

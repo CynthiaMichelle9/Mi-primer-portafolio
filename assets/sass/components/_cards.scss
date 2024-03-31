@@ -1,0 +1,15 @@
+
+.projects {
+    &__card {
+        padding: 5;
+        border: none;
+        text-align: start;
+        width: 16rem;
+    }
+
+    &__card-body {
+        &-text {
+            justify-content: start;
+        }
+    }
+}

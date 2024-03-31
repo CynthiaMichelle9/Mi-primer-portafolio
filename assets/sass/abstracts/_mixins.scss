@@ -1,0 +1,8 @@
+@use '../abstracts/variables';
+
+@mixin titles {
+
+    font-family: $lobster;
+    font-size: $xx-large;
+    text-align: center;
+}
