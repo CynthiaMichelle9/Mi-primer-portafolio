@@ -1,0 +1,26 @@
+@use '../abstracts/variables';
+@use '../components/buttons';
+
+.hero__brand-img {
+    width: 36rem;
+    height: auto;
+}
+
+
+.hero__aboutme {
+    margin-top: 5rem;
+}
+
+.hero__aboutme-title {
+    font-family: $lobster;
+    font-size: $xxx-large;
+}
+
+.hero__aboutme-subtitle {
+    font-size: $xx-large;
+}
+
+.hero__aboutme-p {
+    text-align: justify;
+}
+

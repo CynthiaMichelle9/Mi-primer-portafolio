@@ -11865,10 +11865,48 @@ textarea.form-control-lg {
 .navbar-brand {
   font-family: "Lobster", sans-serif;
   font-size: 36px;
-  color: white;
+}
+
+/* Fuente alternativa */
+/* Font Sizes */
+.hero__button {
+  border: none;
+}
+
+.hero__button:hover {
+  cursor: pointer;
+}
+
+.hero__brand-img {
+  width: 36rem;
+  height: auto;
+}
+
+.hero__aboutme {
+  margin-top: 5rem;
+}
+
+.hero__aboutme-title {
+  font-family: "Lobster", sans-serif;
+  font-size: 46px;
+}
+
+.hero__aboutme-subtitle {
+  font-size: 36px;
+}
+
+.hero__aboutme-p {
+  text-align: justify;
 }
 
 /* Components  */
+.hero__button {
+  border: none;
+}
+.hero__button:hover {
+  cursor: pointer;
+}
+
 /* Pages */
 /* Themes  */
 
