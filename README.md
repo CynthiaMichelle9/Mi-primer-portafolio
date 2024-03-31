@@ -3,6 +3,10 @@
 *En este desafío validaremos nuestros conocimientos sobre el uso del Framework Bootstrap
 junto a Sass, utilizando componentes y la grilla de Bootstrap*
 
+### Github Pages
+
+*https://cynthiamichelle9.github.io/Mi-primer-portafolio/*
+
 ## Requerimientos
 
 1. Instalar Bootstrap mediante la terminal usando npm, e importar correctamente las
