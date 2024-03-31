@@ -11912,11 +11912,29 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+/* Fuente alternativa */
+/* Font Sizes */
+.form {
+  width: 80%;
+}
+.form__title {
+  font-family: "Lobster", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
 /* Components  */
 .hero__button {
   border: none;
 }
 .hero__button:hover {
+  cursor: pointer;
+}
+
+.form__btn {
+  width: 30%;
+}
+.form__btn:hover {
   cursor: pointer;
 }
 

@@ -45,7 +45,7 @@
                         <a class="nav-link active" href="#projects">Proyectos</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link active" href="#">Contacto</a>
+                        <a class="nav-link active" href="#form">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,7 @@
                 <div class="hero__brand col-md-6 col-12 pt-3">
                     <img src="assets/images/coder.svg" alt="Logo hero" class="hero__brand-img p-5">
                 </div>
-                <div class="hero__aboutme col-md-4 col-12  py-3">
+                <div class="hero__aboutme col-md-5 col-12  py-3">
                     <h1 class="hero__aboutme-title text-info">Soy Cynthia Michelle</h1>
                     <h2 class="hero__aboutme-subtitle pt-2 text-success">Desarrolladora FrontEnd</h2>
                     <p class="hero__aboutme-p pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsa
@@ -120,7 +120,7 @@
 
     <section id="projects" class="container projects pb-5">
         <h2 class="projects__title text-info py-4">
-            Proyectos
+            Mis proyectos
         </h2>
         <div class="row justify-content-center">
             <div class="projects__card card col-5 col-md-2">
@@ -150,6 +150,46 @@
                 </div>
             </div>
         </div>
+        </div>
+    </section>
+
+    <!-- Sección formulario de contacto -->
+
+    <section id="form" class="container form pb-5">
+        <h2 class="form__title text-info pb-4">Contáctame</h2>
+
+        <div class="row">
+            <div class="col-md-6 pe-5">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control m-2 pe-1" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control m-2 ps-2" placeholder="Apellido" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="email" class="form-control m-2" placeholder="Email" id="inputEmail3">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <textarea class="form-control m-2 mb-4" id="exampleFormControlTextarea1" placeholder="Mensaje"
+                            rows="4"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn form__btn btn-success text-white ms-2">Enviar</button>
+            </div>
+            <div class="col-md-4 form__contact pt-4">
+                <p class="form__contact-p pb-1 "><i class="fa-solid fa-phone pe-3 text-success"></i>+56 9 999999999</p>
+                <p class="form__contact-p pb-1"><i class="fa-solid fa-envelope pe-3 text-success"></i>cynthia@mail.cl
+                </p>
+                <p class="form__contact-p pb-1"><i class="fa-brands fa-linkedin pe-3 text-success"></i>LinkedIn</p>
+                <p class="form__contact-p pb-1"><i class="fa-brands fa-github pe-3 text-success"></i>GitHub</p>
+                <p class="form__contact-p pb-1"><i class="fa-brands fa-instagram pe-3 text-success"></i>Instagram</p>
+            </div>
         </div>
     </section>
 
