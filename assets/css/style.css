@@ -11869,14 +11869,6 @@ textarea.form-control-lg {
 
 /* Fuente alternativa */
 /* Font Sizes */
-.hero__button {
-  border: none;
-}
-
-.hero__button:hover {
-  cursor: pointer;
-}
-
 .hero__brand-img {
   width: 36rem;
   height: auto;
@@ -11899,12 +11891,54 @@ textarea.form-control-lg {
   text-align: justify;
 }
 
+/* Fuente alternativa */
+/* Font Sizes */
+.skills__title {
+  font-family: "Lobster", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
 /* Components  */
 .hero__button {
   border: none;
 }
 .hero__button:hover {
   cursor: pointer;
+}
+
+/* Fuente alternativa */
+/* Font Sizes */
+.fa-brands {
+  font-size: 26px;
+}
+
+.fa-html5 {
+  color: red;
+}
+
+.fa-css3-alt {
+  color: rgb(0, 162, 255);
+}
+
+.fa-sass {
+  color: rgb(255, 126, 148);
+}
+
+.fa-bootstrap {
+  color: rgb(93, 24, 150);
+}
+
+.fa-git-alt {
+  color: rgb(243, 98, 82);
+}
+
+.fa-js {
+  color: rgb(255, 255, 89);
+}
+
+.fa-vuejs {
+  color: rgb(66, 192, 66);
 }
 
 /* Pages */

@@ -1,0 +1,33 @@
+@use '../abstracts/variables';
+
+.fa-brands {
+    font-size:  $x-large;
+}
+
+.fa-html5 {
+    color: red;
+}
+
+.fa-css3-alt {
+    color: rgb(0, 162, 255);
+}
+
+.fa-sass {
+    color: rgb(255, 126, 148);
+}
+
+.fa-bootstrap {
+    color: rgb(93, 24, 150);
+}
+
+.fa-git-alt {
+    color: rgb(243, 98, 82)
+}
+
+.fa-js {
+    color: rgb(255, 255, 89);
+}
+
+.fa-vuejs {
+    color: rgb(66, 192, 66);
+}
